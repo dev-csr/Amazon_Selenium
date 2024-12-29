@@ -6,6 +6,7 @@
   <parameter name="browser" value="firefox" />
     <classes>
       <class name="testcases.T001_login" />
+      <class name="testcases.T002_searchproduct" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
