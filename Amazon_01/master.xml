@@ -3,7 +3,7 @@
 <suite name="Master Suite">
   <test thread-count="5" name="Test">
   <parameter name="os" value="Windows" />
-  <parameter name="browser" value="firefox" />
+  <parameter name="browser" value="chrome" />
     <classes>
       <class name="testcases.T001_login" />
       <class name="testcases.T002_searchproduct" />

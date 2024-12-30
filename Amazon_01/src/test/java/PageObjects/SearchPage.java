@@ -2,20 +2,22 @@ package PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+
 
 import testBase.BasePage;
 
 public class SearchPage extends BasePage {
-
+	private Actions action;
 	public SearchPage(WebDriver driver) {
 		super(driver);
+		action = new Actions(driver);
 	}
 	@FindBy(xpath="//input[@id='twotabsearchtextbox']") WebElement searchAmazon;
 	@FindBy(xpath="//input[@id='nav-search-submit-button']") WebElement go;
-	@FindBy(xpath="//div[@id='88b69834-1258-4911-bb65-4b517447bc42']//div[@class='a-section a-spacing-small a-spacing-top-small puis-padding-right-small']//span[1]//a[1]") WebElement iphone;
-	@FindBy(xpath="//input[@id='add-to-cart-button']") WebElement addToCart;
-	
+	@FindBy(xpath="//div[@class='s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_3']//a[@class='a-link-normal s-line-clamp-2 s-link-style a-text-normal']") WebElement iphone;
+	@FindBy(xpath="//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']") WebElement addToCart;
 	public void search(String product) {
 		searchAmazon.sendKeys(product);
 	}
@@ -23,7 +25,7 @@ public class SearchPage extends BasePage {
 		go.submit();
 	}
 	public void clickProduct() {
-		iphone.click();
+		action.moveToElement(iphone).click().perform();
 	}
 	public void addToCart() {
 		addToCart.click();

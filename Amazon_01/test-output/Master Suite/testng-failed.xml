@@ -3,15 +3,14 @@
 <suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcases.T001_login">
+      <class name="testcases.T002_searchproduct">
         <methods>
-          <include name="verify_login"/>
           <include name="steup"/>
-          <include name="TearDown"/>
+          <include name="signin"/>
         </methods>
-      </class> <!-- testcases.T001_login -->
+      </class> <!-- testcases.T002_searchproduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

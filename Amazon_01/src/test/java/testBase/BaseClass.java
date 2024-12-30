@@ -38,9 +38,6 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass
-	public void TearDown() {
-		driver.quit();
-	}
+	
 	
 }
