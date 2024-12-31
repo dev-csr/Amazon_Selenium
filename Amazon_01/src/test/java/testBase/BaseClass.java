@@ -40,7 +40,7 @@ public class BaseClass {
 	
 	@AfterClass
 	public void TearDown() throws InterruptedException {
-		Thread.sleep(30000);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 	
