@@ -5,12 +5,12 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcases.T002_searchproduct">
+      <class name="testcases.TC001_amazon">
         <methods>
+          <include name="Amazon"/>
           <include name="steup"/>
-          <include name="signin"/>
         </methods>
-      </class> <!-- testcases.T002_searchproduct -->
+      </class> <!-- testcases.TC001_amazon -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

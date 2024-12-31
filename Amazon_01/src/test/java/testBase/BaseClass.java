@@ -38,6 +38,12 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
+	@AfterClass
+	public void TearDown() throws InterruptedException {
+		Thread.sleep(30000);
+		driver.quit();
+	}
+	
 	
 	
 }

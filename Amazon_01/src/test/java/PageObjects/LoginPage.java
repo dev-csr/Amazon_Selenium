@@ -15,7 +15,7 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//input[@id='ap_email']") WebElement txtEmail;
 	@FindBy(xpath="//input[@id='continue']") WebElement clickContinue;
 	@FindBy(xpath="//input[@id='ap_password']") WebElement amazonPassword;
-	@FindBy(xpath="//input[@id='ap_password']") WebElement amazonSignin;
+	@FindBy(xpath="//input[@id='signInSubmit']") WebElement amazonSignin;
 	
 	public void signin_main() {
 		Click.click();
