@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-31T19:36:54 IST" name="Master Suite" finished-at="2024-12-31T19:37:43 IST" duration-ms="48696">
+  <suite started-at="2025-01-07T20:48:11 IST" name="Master Suite" finished-at="2025-01-07T20:48:39 IST" duration-ms="28659">
     <groups>
       <group name="Master">
         <method signature="TC001_amazon.Amazon()[pri:0, instance:testcases.TC001_amazon@359f7cdf]" name="Amazon" class="testcases.TC001_amazon"/>
@@ -11,9 +11,9 @@
         <method signature="TC001_amazon.Amazon()[pri:0, instance:testcases.TC001_amazon@359f7cdf]" name="Amazon" class="testcases.TC001_amazon"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-12-31T19:36:54 IST" name="Test" finished-at="2024-12-31T19:37:43 IST" duration-ms="48696">
+    <test started-at="2025-01-07T20:48:11 IST" name="Test" finished-at="2025-01-07T20:48:39 IST" duration-ms="28659">
       <class name="testcases.TC001_amazon">
-        <test-method is-config="true" signature="steup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_amazon@359f7cdf]" started-at="2024-12-31T19:36:54 IST" name="steup" finished-at="2024-12-31T19:36:58 IST" duration-ms="3803" status="PASS">
+        <test-method is-config="true" signature="steup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_amazon@359f7cdf]" started-at="2025-01-07T20:48:11 IST" name="steup" finished-at="2025-01-07T20:48:14 IST" duration-ms="3072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- steup -->
-        <test-method signature="Amazon()[pri:0, instance:testcases.TC001_amazon@359f7cdf]" started-at="2024-12-31T19:36:58 IST" name="Amazon" finished-at="2024-12-31T19:37:12 IST" duration-ms="14636" status="PASS">
+        <test-method signature="Amazon()[pri:0, instance:testcases.TC001_amazon@359f7cdf]" started-at="2025-01-07T20:48:14 IST" name="Amazon" finished-at="2025-01-07T20:48:36 IST" duration-ms="22205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Amazon -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TC001_amazon@359f7cdf]" started-at="2024-12-31T19:37:12 IST" name="TearDown" finished-at="2024-12-31T19:37:43 IST" duration-ms="30236" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TC001_amazon@359f7cdf]" started-at="2025-01-07T20:48:36 IST" name="TearDown" finished-at="2025-01-07T20:48:39 IST" duration-ms="3370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

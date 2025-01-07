@@ -9,6 +9,7 @@
         <methods>
           <include name="Amazon"/>
           <include name="steup"/>
+          <include name="TearDown"/>
         </methods>
       </class> <!-- testcases.TC001_amazon -->
     </classes>

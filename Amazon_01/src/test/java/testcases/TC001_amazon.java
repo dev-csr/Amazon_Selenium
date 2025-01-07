@@ -38,6 +38,7 @@ public class TC001_amazon extends BaseClass {
 //	        fa.town(p.getProperty("Town"));
 //	        fa.choose(p.getProperty("State"));
 //	        fa.clickAdd();
+	        lp.signout();
 			
 		}
 		catch(Exception e) {
